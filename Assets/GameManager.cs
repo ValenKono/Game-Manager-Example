@@ -8,6 +8,10 @@ public class GameManager : MonoBehaviour
 
     public static GameManager Instance;
 
+    public int lives = 3;
+    public float score = 0;
+    public float record = 3f;
+
     private void Awake()
     {
         if (Instance != null && Instance != this) 
